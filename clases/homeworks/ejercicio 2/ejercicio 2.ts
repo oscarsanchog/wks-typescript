@@ -8,7 +8,7 @@ let undefinedExample: undefined = undefined; // Solo puede tomar valor "undefine
 let stringExample: string = undefined // Pero el valor "undefined" podemos asignarlo 
                                      // a cualquier variable
 
-//proba cambiando las opciones del tsconfig.json
+//probá cambiando las opciones del tsconfig.json
 // "strictNullChecks": true
 
 //Visual studio code siempre va a tomar el tsconfig de la carpeta donde tengas abierto
@@ -50,6 +50,6 @@ anyValue.metodo(); // Todo OK, compila. Falla en tiempo de ejecución si el mét
 let iDontKnow: unknown = "typescript";
 
 //ejercicio
-let nowIKnow: string = iDontKnow; //utiliza el casteo explicito para asignarle a nowIKnow un string;
+let nowIKnow: string = iDontKnow as string; //utiliza el casteo explicito para asignarle a nowIKnow un string;
 
 export {}
