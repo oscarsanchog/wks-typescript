@@ -14,6 +14,6 @@ const person2: [boolean, string] = [true, 'Oscar']
 
 
 //crea un arreglo de strings
-let stringsArray: array[] = ['hola', 'bonjour', 'hello']
+let stringsArray: string[] = ['hola', 'bonjour', 'hello']
 
 export {}
