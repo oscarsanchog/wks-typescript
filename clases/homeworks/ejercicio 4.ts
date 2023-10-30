@@ -49,4 +49,7 @@ let Fede: Student = {
 
 //Investiga sus diferencias
 
+/* En resumen, type se utiliza para crear alias de tipos y definir tipos personalizados, 
+mientras que extends se utiliza para establecer relaciones de herencia entre interfaces. */
+
 export {}
